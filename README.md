@@ -1,8 +1,8 @@
-![Hao (Jeff) Kang - I build LLM agents that do real work: MCP tool servers, Agent Skills, Voice AI, data pipelines](https://raw.githubusercontent.com/kh1054901651-cloud/kh1054901651-cloud/main/banner-agent.png)
+![Hao Kang - I build LLM agents that do real work: MCP tool servers, Agent Skills, Voice AI, data pipelines](banner-hao-kang.png)
 
 ### AI Engineer · LLM Agents · Data Engineering — MS Applied Data Science, University of Chicago
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hao%20(Jeff)%20Kang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hao-kang-6654b5331/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hao%20Kang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hao-kang-6654b5331/)
 ![UChicago](https://img.shields.io/badge/MS%20Applied%20Data%20Science-University%20of%20Chicago-800000?style=for-the-badge)
 ![UIUC](https://img.shields.io/badge/BS%20Economics%20%2B%20Statistics-UIUC-E84A27?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Chicago%2C%20IL-424242?style=for-the-badge&logo=googlemaps&logoColor=white)
