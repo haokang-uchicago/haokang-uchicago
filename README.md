@@ -1,3 +1,5 @@
+![Hao (Jeff) Kang - AI Engineering, LLM Agents, Data Engineering - MS Applied Data Science, University of Chicago](https://raw.githubusercontent.com/kh1054901651-cloud/kh1054901651-cloud/main/banner.png)
+
 ### AI Engineer · LLM Agents · Data Engineering — MS Applied Data Science, University of Chicago
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hao%20(Jeff)%20Kang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hao-kang-6654b5331/)
