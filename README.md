@@ -31,6 +31,18 @@ I build LLM applications that do real work inside a company — agents that call
 
 ---
 
+## Cloud-native data engineering *(UChicago ADSP 31011, Autumn 2026)*
+
+**Books scraper pipeline:** a polite Python crawler that follows a site's own pagination across 50 catalogue pages and 1,000 book pages. A page cache turns a 20-minute run into seconds, failures are logged instead of crashing, titles are enriched from the Open Library API, and the output is a typed CSV/Parquet table. 12 pytest tests run with the network blocked.
+
+**One-command Cloud SQL deployment:** an idempotent Bash script that creates a MySQL 8.0 instance on Google Cloud SQL, loads the Sakila database and verifies it (16 tables · 1,000 films · $67,406.56). It connects through the Cloud SQL Auth Proxy with no password prompts, keeps credentials only in the environment, and tears down only after confirmation.
+
+**SQL modeling and query plans:** an EER model in MySQL Workbench and 34 SQL queries on Cloud SQL, with `EXPLAIN` plans read for full scans and index trade-offs. Every claim an AI assistant made was scored against MySQL; it caught a ~10× workload overestimate.
+
+<sub>Course repositories are private under the course's academic-integrity policy. Happy to share access on request.</sub>
+
+---
+
 ## Building now
 
 **Xiaowu — voice AI companion agent** *(2-person team, on OpenClaw)* — speech in through Doubao ASR, an LLM that answers in a consistent persona using the user's memory, and TTS back out on mobile.
@@ -84,6 +96,17 @@ I build LLM applications that do real work inside a company — agents that call
 ![Vue 3](https://img.shields.io/badge/Vue%203-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**Cloud & Data Engineering**
+
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Cloud SQL](https://img.shields.io/badge/Cloud%20SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Beautiful Soup](https://img.shields.io/badge/Beautiful%20Soup-3C873A?style=for-the-badge)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apacheparquet&logoColor=white)
+![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
