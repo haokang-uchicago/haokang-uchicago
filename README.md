@@ -39,6 +39,10 @@ I build LLM applications that do real work inside a company — agents that call
 
 **SQL modeling and query plans:** an EER model in MySQL Workbench and 34 SQL queries on Cloud SQL, with `EXPLAIN` plans read for full scans and index trade-offs. Every claim an AI assistant made was scored against MySQL; it caught a ~10× workload overestimate.
 
+**Cloud SQL → Snowflake data warehouse:** migrated a relational database from Google Cloud SQL to Snowflake with every row reconciled, redesigned it as a star schema with slowly-changing dimensions, built a Streamlit dashboard that checks its own numbers, and used a read-only Claude agent to review the model.
+
+**MCP server + AI data assistant:** an MCP server and a Streamlit app that answer plain-English questions over the warehouse through a small set of safe, read-only tools, stress-tested with questions designed to break it, with checks that catch when the AI is wrong.
+
 <sub>Course repositories are private under the course's academic-integrity policy. Happy to share access on request.</sub>
 
 ---
@@ -99,6 +103,8 @@ I build LLM applications that do real work inside a company — agents that call
 
 **Cloud & Data Engineering**
 
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Cloud SQL](https://img.shields.io/badge/Cloud%20SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
