@@ -39,9 +39,9 @@ I build LLM applications that do real work inside a company — agents that call
 
 **SQL modeling and query plans:** an EER model in MySQL Workbench and 34 SQL queries on Cloud SQL, with `EXPLAIN` plans read for full scans and index trade-offs. Every claim an AI assistant made was scored against MySQL; it caught a ~10× workload overestimate.
 
-**Cloud SQL → Snowflake data warehouse:** migrated a relational database from Google Cloud SQL to Snowflake with every row reconciled, redesigned it as a star schema with slowly-changing dimensions, built a Streamlit dashboard that checks its own numbers, and used a read-only Claude agent to review the model.
+**Cloud SQL → Snowflake star schema:** migrated the 16-table Sakila database from Cloud SQL to Snowflake with row-for-row parity (47,268 rows, 0 duplicate keys, 0 orphans across 22 foreign keys), then rebuilt it as a star schema: one fact row per payment, SCD Type 2 customer and film dimensions, idempotent `MERGE` loads reconciled to the cent. A Streamlit-in-Snowflake dashboard recomputes every number from the source, and a read-only Claude agent (key-pair user, SELECT-only role) explained query plans and reviewed the grain, with every claim proved in SQL.
 
-**MCP server + AI data assistant:** an MCP server and a Streamlit app that answer plain-English questions over the warehouse through a small set of safe, read-only tools, stress-tested with questions designed to break it, with checks that catch when the AI is wrong.
+**MCP server + Streamlit assistant:** four bounded, read-only tools over the Snowflake star (allow-listed metrics, bound parameters, a read-only role), served to Claude Code over MCP and to a Streamlit app where DeepSeek picks the tool by function calling. Every answer shows its SQL, grain, cost and query id. Stress-tested with vague, false-premise and prompt-injection questions; app-side checks flag numbers no query produced, stale filters and silently "cleaned" inputs.
 
 <sub>Course repositories are private under the course's academic-integrity policy. Happy to share access on request.</sub>
 
