@@ -1,4 +1,4 @@
-![Hao Kang - I build LLM agents that do real work: MCP tool servers, Agent Skills, Voice AI, data pipelines](banner-hao-kang.png)
+![Hao Kang - I build LLM agents that do real work: MCP tool servers, Agent Skills, cloud data warehouses, data pipelines](banner-hao-kang.png)
 
 ### AI Engineer · LLM Agents · Data Engineering — MS Applied Data Science, University of Chicago
 
@@ -47,22 +47,13 @@ I build LLM applications that do real work inside a company — agents that call
 
 ---
 
-## Building now
-
-**Xiaowu — voice AI companion agent** *(2-person team, on OpenClaw)* — speech in through Doubao ASR, an LLM that answers in a consistent persona using the user's memory, and TTS back out on mobile.
-
-- Long-term memory with source tracing and user-controlled deletion, a 15-category user profile, and a persistent mood model — the LLM only sees the context each turn needs
-- Permission-checked tools in a custom OpenClaw plugin (reminders, to-dos, alarms, check-ins, notes) with retries, timeouts and cancellation so nothing fires twice
-
----
-
 ## How I work
 
 | Building agents | Working with data |
 | --- | --- |
 | Tool calling and MCP servers with confirm steps before anything irreversible | Text normalization, deduplication and entity resolution with an audit trail |
 | Agent Skills that turn recurring manual work into one command | Leakage checks, cross-validation, and SHAP before anyone trusts a score |
-| Memory designs that give the model only what it needs, and let users delete it | A/B tests designed with power analysis and intent-to-treat evaluation |
+| Bounded, read-only tools, so the model never writes raw SQL and every answer shows its query | A/B tests designed with power analysis and intent-to-treat evaluation |
 | Human-in-the-loop review wherever the output leaves the building | Clean data loaded into a warehouse, not left in a notebook |
 
 ---
@@ -76,9 +67,6 @@ I build LLM applications that do real work inside a company — agents that call
 ![OpenAI-compatible APIs](https://img.shields.io/badge/OpenAI--compatible%20APIs-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Qwen](https://img.shields.io/badge/Qwen-615CED?style=for-the-badge)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge)
-![Doubao](https://img.shields.io/badge/Doubao-1E6FFF?style=for-the-badge)
-![OpenClaw](https://img.shields.io/badge/OpenClaw-E5484D?style=for-the-badge)
-![ASR / TTS](https://img.shields.io/badge/ASR%20%2F%20TTS-0B6A0B?style=for-the-badge)
 
 **ML & Analytics**
 
